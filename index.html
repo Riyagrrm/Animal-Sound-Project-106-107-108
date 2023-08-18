@@ -1,0 +1,31 @@
+<html>
+    <head>
+    <title>Animals Sound Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+        <div class="col-12-xs header_div text-center">
+            <h2>Sound Controlled Animals</h2>
+            <p>Note: Play different sounds like barking, meowing, mooing and roaring</p>
+        </div>
+        <div class="main_div">
+            <button class="btn btn-primary" onclick="start_classify">Start</button>
+            <h4 id="result_count">I Can Hear- </h4>
+            <h3 id="result_label"></h3>
+            <br>
+            <img src="ear.gif" id="animal" height="300" width="500">
+        </div>
+        <div id="footer_div">
+            <p>Developed By - Riya</p>
+        </div>
+        </center>
+        <script src="main.js"></script>
+  </body>
+</html>
