@@ -1,0 +1,25 @@
+#heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.head {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(180, 214, 251);
+}
+
+#footer_div {
+    font-size: 25px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.main_div {
+    font-size: 20px;
+}
